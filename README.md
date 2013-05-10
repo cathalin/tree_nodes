@@ -3,7 +3,7 @@ tree_nodes
 
 Whit this script you can build a multilevel Treeview from categories stored in a database.
 
-![](http://ladensia.com/images/tree_node.png)
+![](http://ladensia.com/tree_node/images/tree_node.png)
 
 Installation
 ------------
