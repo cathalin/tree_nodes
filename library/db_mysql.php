@@ -12,9 +12,9 @@ class dbConnection {
   //you need to set server, user, password and database to your database configuration
   private $dbconfig = array(
 			'server' => '127.0.0.1', 
-			'user' => 'root',
-			'password' => 'paro1208gs',
-			'database' => 'db214043_1294',
+			'user' => 'youruser',
+			'password' => 'yourpassword',
+			'database' => 'yourdatabase',
 			);
  
   public function __construct(){
