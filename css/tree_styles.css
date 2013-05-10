@@ -1,0 +1,68 @@
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+#cat_tree li {
+	list-style: none;
+	clear: both;
+        padding: 2px 0;
+}
+
+#cat_tree {
+	font-size: 12px;
+}
+
+.toggle_icon {
+	margin: 0 0 -4px -2px;
+}
+
+.icon_plus {
+	background: url(../images/plus.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0 0 -4px -2px;
+}
+
+.icon_minus {
+	background: url(../images/minus.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0 0 -4px -2px;
+}
+
+.icon_cat_add {
+	background: url(../images/cat_add.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0 0 -4px -2px;
+}
+
+.icon_folder {
+	background: url(../images/closed_folder.gif) no-repeat;
+	width: 18px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0 0 0 3px;
+}
+
+.icon_file {
+	background: url(../images/file.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+        margin: -2px 2px 0 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
