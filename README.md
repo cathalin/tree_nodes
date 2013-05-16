@@ -7,6 +7,11 @@ cPanel User Account Creator is a lightweight script that allows you to create cP
 It's easy to custimize. It has a simple CSS3 design so it can be easily changed  to fit into your page layout.
 
 
+## [Help the project](http://pledgie.com/campaigns/20122)
+
+[![Help the project](http://www.pledgie.com/campaigns/20122.png?skin_name=chrome)](http://pledgie.com/campaigns/20122)
+
+
 Usage
 -----
 
