@@ -3,7 +3,17 @@ cPanel-User-Account-Creator
 
 ![](http://ladensia.com/create_account/images/create_account.png)
 
-cPanel User Account Creator is a lightweight script that allows you to create cPanel User Accounts via XML API from anywhere. It's easy to custimize. It has a simple CSS3 design so it can be easily changed  to fit into your page layout. You get free future updates and free support if you need any help.
+cPanel User Account Creator is a lightweight script that allows you to create cPanel User Accounts via XML API from anywhere.
+It's easy to custimize. It has a simple CSS3 design so it can be easily changed  to fit into your page layout.
+
+
+Usage
+-----
+
+Set the package details in js/packages.js from line 12 to 16 just edit the values in the brackets do not change the variable name.
+
+You need to add your server details in lib/ServiceClass.php in line 15 to 17
+
 
 Demo
 ----

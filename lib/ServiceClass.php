@@ -11,10 +11,12 @@ class ServiceClass {
 
     public function __construct() {
 
-        $host = '108.168.206.108'; //add the IP of your host
-        $user = 'muchkind'; //add your cpanel login username
-        $password = 'W2qJdqCC2B'; //add your cpanel login password
-        $domain = 'muchkin.de'; //add your cpanel domain
+        /////////////////////////////////////////////////////////////////////////
+        $host = '127.0.0.1'; //add the IP of your host
+        $user = 'yourlogin'; //add your cpanel login username
+        $password = 'yourpassword'; //add your cpanel login password
+        //$domain = 'domain.de'; //add your cpanel domain
+        /////////////////////////////////////////////////////////////////////////
 
         $ssl = 0;
         $this->ssl = $ssl;
@@ -27,7 +29,7 @@ class ServiceClass {
         $this->cpanelApi = $cpanelApi;
         $this->whmApi = $cpanelApi;
         $this->password = $password;
-        $this->domain = $domain;
+        //$this->domain = $domain;
 
         if($this->ssl == '0') {
             $port = '2082';
