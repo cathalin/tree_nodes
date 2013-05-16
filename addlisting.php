@@ -31,16 +31,16 @@ try {
 //the id of your listing
 $id = '1';
 
-if(!empty($cat_ids)) {
+if (!empty($cat_ids)) {
     foreach ($cat_ids as $cat_id) {
         $db->query("INSERT INTO categories_has_listings (category_id, listing_id)
                                 VALUES ('$cat_id', '$id')");
     }
 
     if (mysql_error() != '') {
-    echo "An error occured. <br />";
-    echo mysql_errno() . ": " . mysql_error() . "\n";
-    echo '<a href="index.php">back to the form</a>';
+        echo "An error occured. <br />";
+        echo mysql_errno() . ": " . mysql_error() . "\n";
+        echo '<a href="index.php">back to the form</a>';
     } else {
         echo 'Listing was added';
         echo '<meta http-equiv="refresh" content="3; URL=index.php">';
