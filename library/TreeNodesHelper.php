@@ -6,7 +6,7 @@
  */
 namespace library;
 
-include_once 'DatabaseConnection-bak.php';
+include_once 'DatabaseConnection.php';
 
 class TreeNodesHelper extends DatabaseConnection
 {
