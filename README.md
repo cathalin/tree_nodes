@@ -17,13 +17,13 @@ Usage
 
 Just add a css id to the element you want to load the multilevel Treeview like this:
 
-<div id="yourid"></div>
+''<div id="yourid"></div>''
 
 to initialize the multilevel Treeview add the following to your javascript, after you integrated jquery and cat_tree.js
 
-$(document).ready(function () {
+''$(document).ready(function () {
       $('#yourid').treeNode();
-});
+});''
 
 Demo
 ----
