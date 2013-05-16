@@ -1,8 +1,12 @@
 <?php
 /**
- * Basic MySQL Database Actions
+ * multilevel treeview plugin
+ * Copyright (c) 2013 Patric Gutersohn
+ * licensed under MIT.
+ * Date: 16/05/2013
  *
- * @author patric gutersohn
+ * Project Home:
+ * http://ladensia.com/jquery-tree-node-plugin/
  */
 namespace library;
 

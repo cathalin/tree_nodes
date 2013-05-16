@@ -1,10 +1,13 @@
 <?php
 /**
- * Tree Nodes
+ * multilevel treeview plugin
+ * Copyright (c) 2013 Patric Gutersohn
+ * licensed under MIT.
+ * Date: 16/05/2013
  *
- * @author patric gutersohn
+ * Project Home:
+ * http://ladensia.com/jquery-tree-node-plugin/
  */
-
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

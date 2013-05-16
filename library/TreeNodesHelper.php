@@ -1,8 +1,12 @@
 <?php
 /**
- * User: patric gutersohn
- * Date: 14.05.13
- * Time: 19:53
+ * multilevel treeview plugin
+ * Copyright (c) 2013 Patric Gutersohn
+ * licensed under MIT.
+ * Date: 16/05/2013
+ *
+ * Project Home:
+ * http://ladensia.com/jquery-tree-node-plugin/
  */
 namespace library;
 

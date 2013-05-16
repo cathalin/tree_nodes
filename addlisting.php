@@ -1,9 +1,17 @@
 <?php
+/**
+ * multilevel treeview plugin
+ * Copyright (c) 2013 Patric Gutersohn
+ * licensed under MIT.
+ * Date: 16/05/2013
+ *
+ * Project Home:
+ * http://ladensia.com/jquery-tree-node-plugin/
+ */
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-include_once 'library/db_mysql.php';
+include_once 'library/DatabaseConnection.php';
 
 try {
     if (isset($_POST['categorie']) && $_POST['categorie'] != '' && $_POST['categorie'] != null) {
