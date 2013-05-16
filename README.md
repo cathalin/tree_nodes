@@ -8,9 +8,22 @@ With this script you can build a multilevel Treeview from categories stored in a
 Installation
 ------------
 
-Just download the script, upload the .sql file to your database for the base structure and add your database configurations to library/db_mysql.php
+Just download the script, upload the tree_node.sql file to your database named 'tree_nodes' for the base structure and add your database configurations to library/DatabaseConnection.php
 
-If you dont wanna use this structure you can edit the library/tree_nodes.php file to your needs.
+If you don't wanna use this structure you can edit the library/TreeNodes.php file to your needs.
+
+Usage
+-----
+
+Just add a css id to the element you want to load the multilevel Treeview like this:
+
+<div id="yourid"></div>
+
+to initialize the multilevel Treeview add the following to your javascript, after you integrated jquery and cat_tree.js
+
+$(document).ready(function () {
+      $('#yourid').treeNode();
+});
 
 Demo
 ----
@@ -21,6 +34,7 @@ Version / License
 -----------------
 
 Current version: 1.0.0
+
 License: MIT/GPL
 
 Requirements

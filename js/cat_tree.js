@@ -19,6 +19,7 @@
             $.get("library/TreeNodes.php", function (data) {
                 box.append(data);
                 subManagement();
+                box.attr('class', 'category_box')
             });
 
         });

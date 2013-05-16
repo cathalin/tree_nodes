@@ -24,7 +24,7 @@
     <script type="text/javascript" src="js/cat_tree.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#tn').treeNode();
+            $('#treenode').treeNode();
         });
     </script>
 </head>
@@ -33,9 +33,7 @@
 <form class="commentForm" action="addlisting.php" method="post" enctype="multipart/form-data">
     <fieldset>
         <legend>Kategorien wählen / Choose Category</legend>
-        <div class="category_box" id="tn">
-            <ul></ul>
-        </div>
+        <div id="treenode"></div>
         <div class="clearfix"></div>
     </fieldset>
 
