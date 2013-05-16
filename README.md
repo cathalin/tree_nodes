@@ -5,6 +5,10 @@ With this script you can build a multilevel Treeview from categories stored in a
 
 ![](http://ladensia.com/tree_node/images/tree_node.png)
 
+## [Help the project](http://pledgie.com/campaigns/20120)
+
+[![Help the project](http://www.pledgie.com/campaigns/20120.png?skin_name=chrome)](http://pledgie.com/campaigns/20120)
+
 Installation
 ------------
 
