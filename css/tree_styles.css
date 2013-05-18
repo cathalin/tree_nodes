@@ -9,6 +9,11 @@ a {
     padding: 2px 0;
 }
 
+#cat_tree li a {
+    line-height: 19px;
+
+}
+
 #cat_tree {
     font-size: 12px;
 }
@@ -23,7 +28,16 @@ a {
     height: 16px;
     display: block;
     float: left;
-    margin: 0 0 -4px -2px;
+    margin: 1px 0 -6px 0;
+}
+
+.icon_arrow_down {
+    background: url(../images/arrow_down.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin: 1px 0 -6px 0;
 }
 
 .icon_minus {

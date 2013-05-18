@@ -34,9 +34,59 @@
 
 var old = null;
 var old_child = null;
+var old_array = [];
 
 function toggle(id) {
     var e = document.getElementById(id);
+
+    if(jQuery.inArray(e, old_array) == -1) {
+        var span = $(e).parent().find('a:first').find('span:first');
+        var parents = $(e).parent().siblings().find('.icon_arrow_down');
+
+        if($(e).isChildOf(".sub")) {
+            var others = $(e).parent().siblings().find('.icon_arrow_down');
+            $(others).each(function () {
+                $(this).removeClass();
+                $(this).addClass('icon_plus');
+            });
+        } else if(!($(e).isChildOf(".sub"))) {
+            $(e).children().find('ul').each(function (){
+                if(!($(this).css("display") == "none")) {
+                    var opend = $(this).parent().find('.icon_plus');
+                    opend.removeClass();
+                    opend.addClass('icon_arrow_down');
+                }
+            });
+
+        }
+
+        $(parents).each(function () {
+            $(this).removeClass();
+            $(this).addClass('icon_plus');
+            $(this).each( function() {
+                old_array.splice( $.inArray(parents, old_array), 1 );
+            });
+        });
+
+        span.removeClass();
+        span.addClass('icon_arrow_down');
+        old_array.push( e );
+    } else if(jQuery.inArray(e, old_array) >= 0) {
+        var span = $(e).parent().find('a:first').find('span:first');
+        var parents = $(e).parent().siblings().find('.icon_arrow_down');
+
+        $(parents).each(function () {
+            $(this).removeClass();
+            $(this).addClass('icon_plus');
+            $(this).each( function() {
+                old_array.splice( $.inArray(parents, old_array), 1 );
+            });
+        });
+
+        span.removeClass();
+        span.addClass('icon_plus');
+        old_array.splice( $.inArray(e, old_array), 1 );
+    }
 
     if (e != null) {
         if (e.style.display == '') {
